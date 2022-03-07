@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE-edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Iliana's Bakery</title>
+  </head>
+  <body>
+    <img
+      src="img/logo_IlianasBakery.png"
+      alt="Logo Iliana's Bakery"
+      width="150px"
+    />
+    <h1>¡Bienvenidos a Iliana's Bakery!</h1>
+    
+    <hr>
+    <!--menu pasteleria-->
+    <section id="menu" name="menu">
+        <div class="container">
+            <h1>MENÚ</h1>
+            <li>
+                <ul>
+
+                </ul>
+            </li>
+            <h2>Sabores de pasteles</h2>
+            <p>Vainilla..................................$250</p>
+            <p>Chocolate.................................$300</p>
+            <p>Fresa.....................................$300</p>
+            <p>Triple chocolate..........................$400</p>
+            <p>Tres leches...............................$400</p>
+            <p>Limón.....................................$350</p>
+            <p>Platano con cajeta........................$400</p>
+        </div>
+        <div>
+            <h2>Decoraciones extra</h2>
+            <p>Flores de azucar..........................$50</p>
+            <p>Variedad de chocolates (6 piezas).........$100</p>
+            <p>Ganache de chocolate......................$70</p>
+            <p>Drip cake................................$30</p>
+            <p>Sprinkles.................................$15</p>
+            <p>Praliné...................................$50</p>
+            <p>Fruta fresca..............................$40</p>
+            <p>Mermelada.................................$50</p>
+            <p>Cajeta....................................$50</p>
+            <p>Crema batida..............................$35</p>
+        </div>
+    </section>
+
+    <hr>
+
+    <!--Formulario de pedido-->
+    <section id="pedido" name="pedido">
+        <div class="container">
+            <h2>Realiza tu pedido</h2>
+            <form>
+                <div>
+                    <label for="nombreCliente">Nombre:</label>
+                    <input type="text" id="nombreCliente" name="nombreCliente"/>
+                </div>
+                <div>
+                    <label for="telefonoCliente">Teléfono:</label>
+                    <input type="number" id="telefonoCliente" name="telefonoCliente"/>
+                </div>
+                <div>
+                    <label for="emailCliente">Correo Electrónico:</label>
+                    <input type="email" id="emailCliente" name="emailCliente"/>
+                </div>
+                <br>
+                <div>
+                    <h3>Elige el sabor de tu pastel</h3>
+                    <input type="checkbox" id="saborVainilla" name="saborVainilla"/>
+                    <label for="saborVainilla">Vainilla</label><br>
+                    <input type="checkbox" id="saborChocolate" name="saborChocolate"/>
+                    <label for="saborChocolate">Chocolate</label><br>
+                    <input type="checkbox" id="saborFresa" name="saborFresa"/>
+                    <label for="saborFresa">Fresa</label><br>
+                    <input type="checkbox" id="saborTripleC" name="saborTripleC"/>
+                    <label for="saborTripleC">Triple Chocolate</label><br>
+                    <input type="checkbox" id="saborLeches" name="saborLeches"/>
+                    <label for="saborLeches">Tres leches</label><br>
+                    <input type="checkbox" id="saborLimon" name="saborLimon"/>
+                    <label for="saborLimon">Limón</label><br>
+                    <input type="checkbox" id="saborPlatano" name="saborPlatano"/>
+                    <label for="saborPlatano">Plátano con Cajeta</label>
+                </div>
+                <div>
+                    <h3>Elige las decoraciones extras</h3>
+                    <input type="checkbox" id="decoracionFlor" name="decoracionFlor"/>
+                    <label for="decoracionFlor"></label>Flores de azúcar<br>
+                    <input type="checkbox" id="decoracionChoco" name="decoracionChoco"/>
+                    <label for="decoracionChoco">Variedad de Chocolates</label><br>
+                    <input type="checkbox" id="decoracionGanache" name="decoracionGanache"/>
+                    <label for="decoracionGanache">Ganache de Chocolate</label><br>
+                    <input type="checkbox" id="decoracionDrip" name="decoracionDrip"/>
+                    <label for="decoracionDrip">Drip Cake</label><br>
+                    <input type="checkbox" id="decoracionSprinkles" name="decoracionSprinkles"/>
+                    <label for="decoracionSprinkles">Sprinkles</label><br>
+                    <input type="checkbox" id="decoracionPraline" name="decoracionPraline"/>
+                    <label for="decoracionPraline">Praliné</label><br>
+                    <input type="checkbox" id="decoracionFruta" name="decoracionFruta"/>
+                    <label for="decoracionFruta">Fruta fresca</label><br>
+                    <input type="checkbox" id="decoracionMermelada" name="decoracionMermelada"/>
+                    <label for="decoracionMermelada">Mermelada</label><br>
+                    <input type="checkbox" id="decoracionCajeta" name="decoracionCajeta"/>
+                    <label for="decoracionCajeta">Cajeta</label><br>
+                    <input type="checkbox" id="decoracionCrema" name="decoracionCrema"/>
+                    <label for="decoracionCrema">Crema batida</label>
+                </div>
+                <br>
+                <input type="submit" value="Pedir">
+            </form>
+
+        </div>
+    </section>
+
+  </body>
+</html>
