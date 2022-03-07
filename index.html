@@ -13,107 +13,198 @@
       width="150px"
     />
     <h1>¡Bienvenidos a Iliana's Bakery!</h1>
-    
-    <hr>
-    <!--menu pasteleria-->
-    <section id="menu" name="menu">
-        <div class="container">
-            <h1>MENÚ</h1>
-            <li>
-                <ul>
 
-                </ul>
-            </li>
-            <h2>Sabores de pasteles</h2>
-            <p>Vainilla..................................$250</p>
-            <p>Chocolate.................................$300</p>
-            <p>Fresa.....................................$300</p>
-            <p>Triple chocolate..........................$400</p>
-            <p>Tres leches...............................$400</p>
-            <p>Limón.....................................$350</p>
-            <p>Platano con cajeta........................$400</p>
-        </div>
-        <div>
-            <h2>Decoraciones extra</h2>
-            <p>Flores de azucar..........................$50</p>
-            <p>Variedad de chocolates (6 piezas).........$100</p>
-            <p>Ganache de chocolate......................$70</p>
-            <p>Drip cake................................$30</p>
-            <p>Sprinkles.................................$15</p>
-            <p>Praliné...................................$50</p>
-            <p>Fruta fresca..............................$40</p>
-            <p>Mermelada.................................$50</p>
-            <p>Cajeta....................................$50</p>
-            <p>Crema batida..............................$35</p>
-        </div>
+    <hr />
+    <!--Sección conócenos/quiénes somos -->
+    <section id="conocenos">
+      <div class="container">
+        <h2>¡Conócenos! ¿Quiénes somos?</h2>
+        <p class="texto">
+          Somos un negocio local en Hermosillo, Sonora, fundado en Octubre de
+          2020 pero con un historial de varios años sin estar oficialmente en la
+          marca de <em>"Iliana's Bakery"</em>. Lo que se busca es llegar a las
+          casas de cada familia para que puedan crear nuevos momentos en
+          compañía de seres queridos. Cuidando que todo sea especial y distinto
+          para cada cliente, podrás encontrar nuestro toque especial.
+        </p>
+        <p class="texto">
+          Como sabemos que pones de tu parte al elegirnos por nuestro producto,
+          nosotros queremos ofrecer el mejor servicio al cliente por lo que
+          nuestras entregas a domicilio vienen totalmente incluidas en la compra
+          de nuestros productos (solo en Hermosillo).
+        </p>
+        <p class="texto">
+          Visitanos en nuestro perfil de Facebook y aquí en nuestro sitio web.
+          Todo es totalmente en línea.
+        </p>
+        <p class="texto">
+          <strong>¡Bienvenido y gracias por tu preferencia!</strong>
+        </p>
+      </div>
     </section>
 
-    <hr>
+    <hr />
+
+    <!--menu pasteleria-->
+    <section id="menu" name="menu">
+      <div class="container">
+        <h1>MENÚ</h1>
+        <h2>Sabores de pasteles</h2>
+        <ul>
+          <li>Vainilla..................................$250</li>
+          <li>Chocolate.................................$300</li>
+          <li>Fresa.....................................$300</li>
+          <li>Triple chocolate..........................$400</li>
+          <li>Tres leches...............................$400</li>
+          <li>Limón.....................................$350</li>
+          <li>Platano con cajeta........................$400</li>
+        </ul>
+      </div>
+      <div>
+        <h2>Decoraciones extra</h2>
+        <ul>
+          <li>Flores de azucar..........................$50</li>
+          <li>Variedad de chocolates (6 piezas).........$100</li>
+          <li>Ganache de chocolate......................$70</li>
+          <li>Drip cake................................$30</li>
+          <li>Sprinkles.................................$15</li>
+          <li>Praliné...................................$50</li>
+          <li>Fruta fresca..............................$40</li>
+          <li>Mermelada.................................$50</li>
+          <li>Cajeta....................................$50</li>
+          <li>Crema batida..............................$35</li>
+        </ul>
+      </div>
+    </section>
+
+    <hr />
 
     <!--Formulario de pedido-->
     <section id="pedido" name="pedido">
-        <div class="container">
-            <h2>Realiza tu pedido</h2>
-            <form>
-                <div>
-                    <label for="nombreCliente">Nombre:</label>
-                    <input type="text" id="nombreCliente" name="nombreCliente"/>
-                </div>
-                <div>
-                    <label for="telefonoCliente">Teléfono:</label>
-                    <input type="number" id="telefonoCliente" name="telefonoCliente"/>
-                </div>
-                <div>
-                    <label for="emailCliente">Correo Electrónico:</label>
-                    <input type="email" id="emailCliente" name="emailCliente"/>
-                </div>
-                <br>
-                <div>
-                    <h3>Elige el sabor de tu pastel</h3>
-                    <input type="checkbox" id="saborVainilla" name="saborVainilla"/>
-                    <label for="saborVainilla">Vainilla</label><br>
-                    <input type="checkbox" id="saborChocolate" name="saborChocolate"/>
-                    <label for="saborChocolate">Chocolate</label><br>
-                    <input type="checkbox" id="saborFresa" name="saborFresa"/>
-                    <label for="saborFresa">Fresa</label><br>
-                    <input type="checkbox" id="saborTripleC" name="saborTripleC"/>
-                    <label for="saborTripleC">Triple Chocolate</label><br>
-                    <input type="checkbox" id="saborLeches" name="saborLeches"/>
-                    <label for="saborLeches">Tres leches</label><br>
-                    <input type="checkbox" id="saborLimon" name="saborLimon"/>
-                    <label for="saborLimon">Limón</label><br>
-                    <input type="checkbox" id="saborPlatano" name="saborPlatano"/>
-                    <label for="saborPlatano">Plátano con Cajeta</label>
-                </div>
-                <div>
-                    <h3>Elige las decoraciones extras</h3>
-                    <input type="checkbox" id="decoracionFlor" name="decoracionFlor"/>
-                    <label for="decoracionFlor"></label>Flores de azúcar<br>
-                    <input type="checkbox" id="decoracionChoco" name="decoracionChoco"/>
-                    <label for="decoracionChoco">Variedad de Chocolates</label><br>
-                    <input type="checkbox" id="decoracionGanache" name="decoracionGanache"/>
-                    <label for="decoracionGanache">Ganache de Chocolate</label><br>
-                    <input type="checkbox" id="decoracionDrip" name="decoracionDrip"/>
-                    <label for="decoracionDrip">Drip Cake</label><br>
-                    <input type="checkbox" id="decoracionSprinkles" name="decoracionSprinkles"/>
-                    <label for="decoracionSprinkles">Sprinkles</label><br>
-                    <input type="checkbox" id="decoracionPraline" name="decoracionPraline"/>
-                    <label for="decoracionPraline">Praliné</label><br>
-                    <input type="checkbox" id="decoracionFruta" name="decoracionFruta"/>
-                    <label for="decoracionFruta">Fruta fresca</label><br>
-                    <input type="checkbox" id="decoracionMermelada" name="decoracionMermelada"/>
-                    <label for="decoracionMermelada">Mermelada</label><br>
-                    <input type="checkbox" id="decoracionCajeta" name="decoracionCajeta"/>
-                    <label for="decoracionCajeta">Cajeta</label><br>
-                    <input type="checkbox" id="decoracionCrema" name="decoracionCrema"/>
-                    <label for="decoracionCrema">Crema batida</label>
-                </div>
-                <br>
-                <input type="submit" value="Pedir">
-            </form>
-
-        </div>
+      <div class="container">
+        <h2>Realiza tu pedido</h2>
+        <form>
+          <div>
+            <label for="nombreCliente">Nombre:</label>
+            <input type="text" id="nombreCliente" name="nombreCliente" />
+          </div>
+          <div>
+            <label for="telefonoCliente">Teléfono:</label>
+            <input type="tel" id="telefonoCliente" name="telefonoCliente" maxlength="10" minlength="10"/>
+          </div>
+          <div>
+            <label for="emailCliente">Correo Electrónico:</label>
+            <input type="email" id="emailCliente" name="emailCliente" />
+          </div>
+          <br>
+          <div>
+            <h3>¡Recoge su pedido o a domicilio?</h3>
+            <input type="radio" name="tipoPedido" value="Recoger"/> Recoger
+            <input type="radio" name="tipoPedido" value="Domicilio"/> Domicilio
+          </div>
+          <br>
+          <div>
+            <h3>Dirección de envío:</h3>
+            <input type="text" id="direccionEnvio" name="direccionEnvio"/>
+          </div>
+          <br>
+          <div>
+            <h3>Elige el sabor de tu pastel</h3>
+            <input type="checkbox" id="saborVainilla" name="saborVainilla" />
+            <label for="saborVainilla">Vainilla</label><br />
+            <input type="checkbox" id="saborChocolate" name="saborChocolate" />
+            <label for="saborChocolate">Chocolate</label><br />
+            <input type="checkbox" id="saborFresa" name="saborFresa" />
+            <label for="saborFresa">Fresa</label><br />
+            <input type="checkbox" id="saborTripleC" name="saborTripleC" />
+            <label for="saborTripleC">Triple Chocolate</label><br />
+            <input type="checkbox" id="saborLeches" name="saborLeches" />
+            <label for="saborLeches">Tres leches</label><br />
+            <input type="checkbox" id="saborLimon" name="saborLimon" />
+            <label for="saborLimon">Limón</label><br />
+            <input type="checkbox" id="saborPlatano" name="saborPlatano" />
+            <label for="saborPlatano">Plátano con Cajeta</label>
+          </div>
+          <div>
+            <h3>Elige las decoraciones extras</h3>
+            <input type="checkbox" id="decoracionFlor" name="decoracionFlor" />
+            <label for="decoracionFlor"></label>Flores de azúcar<br />
+            <input
+              type="checkbox"
+              id="decoracionChoco"
+              name="decoracionChoco"
+            />
+            <label for="decoracionChoco">Variedad de Chocolates</label><br />
+            <input
+              type="checkbox"
+              id="decoracionGanache"
+              name="decoracionGanache"
+            />
+            <label for="decoracionGanache">Ganache de Chocolate</label><br />
+            <input type="checkbox" id="decoracionDrip" name="decoracionDrip" />
+            <label for="decoracionDrip">Drip Cake</label><br />
+            <input
+              type="checkbox"
+              id="decoracionSprinkles"
+              name="decoracionSprinkles"
+            />
+            <label for="decoracionSprinkles">Sprinkles</label><br />
+            <input
+              type="checkbox"
+              id="decoracionPraline"
+              name="decoracionPraline"
+            />
+            <label for="decoracionPraline">Praliné</label><br />
+            <input
+              type="checkbox"
+              id="decoracionFruta"
+              name="decoracionFruta"
+            />
+            <label for="decoracionFruta">Fruta fresca</label><br />
+            <input
+              type="checkbox"
+              id="decoracionMermelada"
+              name="decoracionMermelada"
+            />
+            <label for="decoracionMermelada">Mermelada</label><br />
+            <input
+              type="checkbox"
+              id="decoracionCajeta"
+              name="decoracionCajeta"
+            />
+            <label for="decoracionCajeta">Cajeta</label><br />
+            <input
+              type="checkbox"
+              id="decoracionCrema"
+              name="decoracionCrema"
+            />
+            <label for="decoracionCrema">Crema batida</label>
+          </div>
+          <br />
+          <a href="./pedido.html">
+              <button>Pedir</button>
+          </a>
+          <!--<input type="submit" value="Pedir" />-->
+        </form>
+      </div>
     </section>
 
+    <!--horario pasteleria-->
+    <section id="contacto" name="contacto">
+      <div class="container">
+        <h3>Contacto Iliana's Bakery</h3>
+        <ul>
+          <li><strong>Lunes a viernes:</strong> 8:00 am a 20:00 pm</li>
+          <li><strong>Sábados:</strong> 9:00 am a 19:00 pm</li>
+          <li><strong>Domingo:</strong> Descanso</li>
+        </ul>
+        <ul>
+            <li>Dirección: Retorno del prado #123 colonia Bachoco, Hermosillo, Sonora</li>
+            <li>Teléfono: 662-1234567</li>
+        </ul>
+      </div>
+    </section>
+
+    <!--contacto-->
   </body>
 </html>
