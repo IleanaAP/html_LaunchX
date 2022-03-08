@@ -14,6 +14,8 @@
     />
     <h1>¡Bienvenidos a Iliana's Bakery!</h1>
 
+    <a href="pastelero.html">MENU PASTELERO</a>
+
     <hr />
     <!--Sección conócenos/quiénes somos -->
     <section id="conocenos">
@@ -40,6 +42,10 @@
         <p class="texto">
           <strong>¡Bienvenido y gracias por tu preferencia!</strong>
         </p>
+        
+        <br>
+        
+        <img src="img/pastelChocolate.jpg" alt="Ejemplo de pastel de chocolate" width="350px">
       </div>
     </section>
 
@@ -90,22 +96,33 @@
           </div>
           <div>
             <label for="telefonoCliente">Teléfono:</label>
-            <input type="tel" id="telefonoCliente" name="telefonoCliente" maxlength="10" minlength="10"/>
+            <input
+              type="tel"
+              id="telefonoCliente"
+              name="telefonoCliente"
+              maxlength="10"
+              minlength="10"
+            />
           </div>
           <div>
             <label for="emailCliente">Correo Electrónico:</label>
             <input type="email" id="emailCliente" name="emailCliente" />
           </div>
-          <br>
+          <br />
           <div>
             <h3>¡Recoge su pedido o a domicilio?</h3>
-            <input type="radio" name="tipoPedido" value="Recoger"/> Recoger
-            <input type="radio" name="tipoPedido" value="Domicilio"/> Domicilio
+            <input type="radio" name="tipoPedido" value="Recoger" /> Recoger
+            <input type="radio" name="tipoPedido" value="Domicilio" /> Domicilio
           </div>
-          <br>
+          <br />
           <div>
             <h3>Dirección de envío:</h3>
-            <input type="text" id="direccionEnvio" name="direccionEnvio"/>
+            <input type="text" id="direccionEnvio" name="direccionEnvio" />
+          </div>
+          <br />
+          <div>
+            <h3>Descripción del pastel:</h3>
+            <textarea name="descripcionPastel" rows="5" cols="40">Escribe aqui tu descripcion</textarea>
           </div>
           <br>
           <div>
@@ -181,27 +198,31 @@
             <label for="decoracionCrema">Crema batida</label>
           </div>
           <br />
-          <input type="submit" value="Pedir" />
+          <!--<input type="submit" value="Pedir" />-->
+          <a href="pedido.html">  
+            <input type="submit" value="Pedir"/>  
+           </a>
         </form>
       </div>
     </section>
 
-    <!--horario pasteleria-->
+    <!--contacto-->
     <section id="contacto" name="contacto">
       <div class="container">
         <h3>Contacto Iliana's Bakery</h3>
+        <ul>
+          <li>
+            Dirección: Retorno del prado #123 colonia Bachoco, Hermosillo,
+            Sonora
+          </li>
+          <li>Teléfono: 662-1234567</li>
+        </ul>
         <ul>
           <li><strong>Lunes a viernes:</strong> 8:00 am a 20:00 pm</li>
           <li><strong>Sábados:</strong> 9:00 am a 19:00 pm</li>
           <li><strong>Domingo:</strong> Descanso</li>
         </ul>
-        <ul>
-            <li>Dirección: Retorno del prado #123 colonia Bachoco, Hermosillo, Sonora</li>
-            <li>Teléfono: 662-1234567</li>
-        </ul>
       </div>
     </section>
-
-    <!--contacto-->
   </body>
 </html>
